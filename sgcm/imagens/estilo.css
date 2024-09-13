@@ -81,9 +81,16 @@ input[type="submit"]{
     border: none;
     padding: 0.4em;
     text-decoration: none;
-
 }
-
+a.botao,
+input[type="submit"]:hover{
+    background-color: #066f08;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+}
 a.botaored,
 input[type="button"]{
     background-color: red;
@@ -92,4 +99,20 @@ input[type="button"]{
     border: none;
     padding: 0.4em;
     text-decoration: none;
+}
+a.botaored,
+input[type="button"]:hover{
+    background-color: rgb(146, 0, 0);
+    color: white;
+    border-radius: 4px ;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+}
+
+footer,
+footer a{
+    background-color: #003366;
+    color: white;
+    padding: 5px;
 }
