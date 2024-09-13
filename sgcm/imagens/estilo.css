@@ -1,0 +1,95 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px
+}
+body{
+    margin: 0;
+}
+div#logo_header {
+    background:linear-gradient(#003366, #006699);
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+div#logo_header p{
+    /* margin-top: 15px; */
+    margin: 5px;
+    /* margin-bottom: 0; */
+    font-size: 2em;
+}
+/* Menu de navegação */
+nav{
+    background-color: #383838;
+}
+
+nav ul, 
+nav ul a{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 4px;
+    color: white;
+    margin: auto;
+}
+
+nav ul a:hover{
+    color: #383838;
+    background-color: #CCCC;
+}
+
+/* Form */
+
+form.form_profissional{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: fit-content;
+    gap: 5px;
+    line-height: 1.5em;
+}
+
+table thead,
+table tfoot{
+    background-color: #003366;
+    color: white;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #3f8ee9;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #2159da;
+}
+table tbody tr:hover{
+    background-color: #4e6cff;
+}
+
+table tr td,
+table thead th{
+    padding: 0.5em;
+}
+
+/* Links e Botões */
+
+a.botao,
+input[type="submit"]{
+    background-color: #2c832d;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+
+}
+
+a.botaored,
+input[type="button"]{
+    background-color: red;
+    color: white;
+    border-radius: 4px ;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+}
