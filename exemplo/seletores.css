@@ -1,0 +1,73 @@
+*{
+    color: red;
+}
+
+a{
+    color: red;
+}
+/* agrupamento de seletores */
+h1, p{
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.link_class{
+    color: chocolate;
+}
+
+#link_id{
+    color: blue;
+}
+
+a[href="http://www.google.com"]{
+    color: blueviolet;
+}
+/* Combinação de seletores */
+
+p.p1{
+    font-weight: bold;
+}
+
+p span{
+    font-style: italic;
+}
+
+p+h2{
+    font-size: 30px;
+    text-align: right;
+}
+
+ul>li{
+    color: midnightblue;
+}
+
+p~h3{
+    color: springgreen;
+    text-align: center;
+}
+
+/* Cálculo da medida EM */
+
+.pai{
+    font-size: 10px;
+}
+
+.filho{
+    font-size:  2em;
+}
+
+h4{
+    color:rgb(255, 99, 71);
+    font-size: 72px;
+}
+
+h5{
+    color: rgba(255, 99, 71, 0.9);
+    font-size: 72px;
+}
