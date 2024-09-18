@@ -32,8 +32,8 @@ carregaProfissionais = () =>{               //Objeto que guarda
                 linha.appendChild(registro);
                 linha.appendChild(telefone);
                 linha.appendChild(email);
-                linha.appendChild(especialidade);
                 linha.appendChild(unidade);
+                linha.appendChild(especialidade);
                 linha.appendChild(opcoes);
                 tabela.tBodies[0].appendChild(linha); // Preenchendo tabela
 
@@ -44,3 +44,8 @@ carregaProfissionais = () =>{               //Objeto que guarda
         xhr.send();
 };
  carregaProfissionais()
+
+ //Inserir profissional
+inserirProfissional = () =>{
+    
+}
